@@ -3,4 +3,4 @@
 
 def word_count(text: str) -> int:
     """Return the number of words in ``text``."""
-    return len(text.splitlines())
+    return len(text.split())
